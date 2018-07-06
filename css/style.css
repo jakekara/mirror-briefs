@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+/* @import url('https://fonts.googleapis.com/css?family=Merriweather:400,100,700'); */
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#newsbrief-container {
+    max-width: 400px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+ 
+    margin: 0px;
+    text-rendering: optimizelegibility;
+
+    max-height: 320px;
+    overflow-y: scroll;
+    
+}
+
+#newsbrief-container a{
+    text-decoration: none;
+}
+
+
+.newsbrief-header{
+    font-weight: 100;
+    /* font-style: italic; */
+    /* color: #555; */
+    text-align: center;
+    /* text-transform: uppercase; */
+    font-size: 19px;
+}
+
+a .newsbrief-story{
+    padding-left: 6px;
+    margin-bottom: 12px;
+}
+	    
+
+a .newsbrief-story:hover {
+    background-color: #efefef;
+}
+
+
+.newsbrief-headline{
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15.6px;
+    
+		  
+}
+
+.newsbrief-datebreak,
+.newsbrief-dateline{
+    text-align: right;
+    color: #777;
+    font-size: 11px;
+}
+
+.newsbrief-dategroup{
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 6px;
+}
+
+.newsbrief-datebreak {
+    /* text-align: center; */
+    color: #777;
+}
+
+
+.newsbrief-dateline{
+    display: none;
+}
