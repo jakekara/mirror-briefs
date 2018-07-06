@@ -71,6 +71,7 @@ function main(d){
 	.classed("read-more", true)
 	.append("a")
 	.attr("href", "https://ctmirror.org")
+	.attr("target","_blank")
 	.text("More briefs")
 
 };
