@@ -70,7 +70,7 @@ function main(d){
 	.classed("newsbrief-footer", true)
 	.classed("read-more", true)
 	.append("a")
-	.attr("href", "https://ctmirror.org")
+	.attr("href", "https://ctmirror.org/category/politics/")
 	.attr("target","_blank")
 	.text("More briefs")
 
