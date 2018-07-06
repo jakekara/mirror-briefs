@@ -1,0 +1,1 @@
+For this demo, posts are not filtered by categoy.
