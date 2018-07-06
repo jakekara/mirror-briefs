@@ -46,7 +46,10 @@ function main(d){
 	dateList.push(dt);
     });
 
-    var dategroups = container.selectAll(".newsbrief-dategroup")
+    var datelist = container.append("div")
+	.classed("newsbrief-dategroup-container", true);
+    
+    var dategroups = datelist.selectAll(".newsbrief-dategroup")
 	.data(dateList)
 	.enter()
 	.append("div")
@@ -63,6 +66,12 @@ function main(d){
 		     }));
     });
 
+    var footer= container.append("div")
+	.classed("newsbrief-footer", true)
+	.classed("read-more", true)
+	.append("a")
+	.attr("href", "https://ctmirror.org")
+	.text("More briefs")
 
 };
 

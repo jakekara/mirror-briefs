@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400i,700');
 
 /* @import url('https://fonts.googleapis.com/css?family=Merriweather:400,100,700'); */
 body {
@@ -14,10 +14,13 @@ body {
     margin: 0px;
     text-rendering: optimizelegibility;
 
-    max-height: 320px;
-    overflow-y: scroll;
     
 }
+
+.newsbrief-dategroup-container {
+    max-height: 320px;
+    overflow-y: scroll;
+}    
 
 #newsbrief-container a{
     text-decoration: none;
@@ -43,7 +46,19 @@ a .newsbrief-story:hover {
     background-color: #efefef;
 }
 
+.read-more{
+    text-align: center;
+}
 
+.read-more a{
+    color: #cc4545;
+}
+
+#newsbrief-container .read-more a:hover{
+    text-decoration: underline;
+}
+
+.read-more,
 .newsbrief-headline{
     color: black;
     font-size: 12px;
