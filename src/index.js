@@ -34,7 +34,7 @@ function main(d){
     // render the list of stories
     var container = d3.select("#newsbrief-container").html("");
 
-    var title = container.append("div")
+    var title = container.append("h3")
 	.classed("newsbrief-header", true)
 	.text("News briefs");
 

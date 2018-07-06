@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400i,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
-/* @import url('https://fonts.googleapis.com/css?family=Merriweather:400,100,700'); */
+/* @import url('https://fonts.googleapis.com/css?family=Merriweather:400,300,700'); */
 body {
     padding: 0px;
     margin: 0px;
@@ -28,7 +28,7 @@ body {
 
 
 .newsbrief-header{
-    font-weight: 100;
+    font-weight: 400;
     /* font-style: italic; */
     /* color: #555; */
     text-align: center;
