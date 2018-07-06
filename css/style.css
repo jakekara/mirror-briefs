@@ -18,7 +18,7 @@ body {
 }
 
 .newsbrief-dategroup-container {
-    max-height: 320px;
+    max-height: 280px;
     overflow-y: scroll;
 }    
 
@@ -76,7 +76,7 @@ a .newsbrief-story:hover {
 }
 
 .newsbrief-dategroup{
-    border-bottom: 1px solid #efefef;
+    border-bottom: 1px solid #ccc;
     margin-bottom: 6px;
 }
 
